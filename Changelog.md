@@ -4,6 +4,11 @@
 
 - [add `size` and `len` for `PageRange`, `PhysFrameRange`, `PageRangeInclusive` and `PhysFrameRangeInclusive`](https://github.com/rust-osdev/x86_64/pull/491)
 
+## Breaking changes
+
+- [add `Mapper::clear` to clear any page table entry regardless of the present flag](https://github.com/rust-osdev/x86_64/pull/484)
+- [`Mapper::unmap` now also returns the flags of the page ](https://github.com/rust-osdev/x86_64/pull/484)
+
 # 0.15.1 – 2024-03-19
 
 ## New Features
